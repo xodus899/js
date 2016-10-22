@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+html {
+  font-family: 'Abel', sans-serif;
+
+}
+body {
+  background-image: url("images/guessNumber.jpg");
+  background-repeat: none;
+  background-size:100%;
+  margin: 0 auto;
+
+
+}
+
+#heading {
+  font-size:25px;
+  padding:100px;
+  text-align: center;
+  color: #e67e00;
+  
+ 
+
+
+}
+#under-heading {
+  font-size:25px;
+  text-align: center;
+  color: #FF8C00;
+  text-shadow: 2px 2px black;
+}
+.lastResult {
+  color: white;
+  padding: 3px;
+}
+
+#label{
+  font-size:20px;
+  color:white;
+  text-shadow: 2px 2px black;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.lastResult {
+   position:relative;
+   margin:auto;
+   width:10%;
+}
+
+button {
+position:fixed;
+left:47%;
+}
+
+     
