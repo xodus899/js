@@ -17,7 +17,7 @@ body {
   padding:100px;
   text-align: center;
   color: #e67e00;
-  
+
  
 
 
@@ -34,11 +34,19 @@ body {
 }
 
 #label{
+  size:1000px;
   font-size:20px;
   color:white;
   text-shadow: 2px 2px black;
   background-color: rgba(0, 0, 0, 0.7);
 }
+input {
+  height: 20px;
+  width:175px;
+}
+
+
+
 
 .lastResult {
    position:relative;
