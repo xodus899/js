@@ -21,3 +21,17 @@ return newString;
 }
 //call the function with strings passed through
 merge("abc","def")
+
+
+//second solution to alternating characters
+
+function merge(a,b) {
+  var newString = "";
+  var allArr = a.length;
+  for(i = 0; i < allArr; i++){
+    newString += a[i];
+    newString += b[i];
+  }
+  return newString;
+}
+merge("sces","ucs!") 
